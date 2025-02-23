@@ -1,4 +1,4 @@
-
+If you want your equations to be formatted correctly for **GitHub Markdown**, use **double dollar signs (`$$`)** for block equations and **single dollar signs (`$`)** for inline equations. Here’s how you should structure your blog post in **GitHub-friendly Markdown format**:
 
 ---
 
@@ -21,11 +21,12 @@ In a rectangular waveguide, **modes** represent different field configurations i
 ## **Cutoff Frequency and Its Determination**
 The **cutoff frequency** is the minimum frequency required for a specific mode to propagate in the waveguide. It is determined by the physical dimensions of the waveguide. For a **rectangular waveguide with width** \( a \) **and height** \( b \), the cutoff frequency for a **TEₘₙ** mode is given by:
 
-\[
+$$
 f_c = \frac{c}{2} \sqrt{\left( \frac{m}{a} \right)^2 + \left( \frac{n}{b} \right)^2}
-\]
+$$
 
 where:
+
 - \( m \) and \( n \) are the mode indices,
 - \( c \) is the speed of light.
 
@@ -36,31 +37,28 @@ If the operating frequency is **below the cutoff frequency**, wave propagation i
 ## **Why Can't a Rectangular Waveguide Support TEM Waves?**
 A **TEM wave** requires both the electric and magnetic fields to be purely transverse (perpendicular) to the direction of propagation, meaning there must be **two independent conductors** to support this mode. In a hollow rectangular waveguide, there is only one conductor, making it impossible to support a pure TEM wave. Instead, only **TE and TM modes exist**, where at least one field component is aligned along the direction of propagation.
 
-
-
-https://github.com/user-attachments/assets/8f210ca0-425c-4506-bc24-b22886a0290f
-
-
 ---
 
 ## **Propagation Constant and Guide Wavelength**
 The **propagation constant** \( \beta \) determines how the wave propagates inside the waveguide. It is given by:
 
-\[
+$$
 \beta = \sqrt{k^2 - k_c^2}
-\]
+$$
 
 where:
+
 - \( k \) is the free-space wave number,
 - \( k_c \) is the wave number corresponding to the cutoff frequency.
 
 The **guide wavelength** \( \lambda_g \) differs from the free-space wavelength \( \lambda \) and is given by:
 
-\[
+$$
 \lambda_g = \frac{\lambda}{\sqrt{1 - \left(\frac{f_c}{f}\right)^2}}
-\]
+$$
 
 where:
+
 - \( f_c \) is the cutoff frequency,
 - \( f \) is the operating frequency.
 
@@ -71,15 +69,15 @@ As the frequency increases, \( \lambda_g \) approaches \( \lambda \), but near t
 ## **Phase Velocity and Group Velocity**
 The **phase velocity** \( v_p \) in a waveguide is the velocity at which a wave phase propagates along the guide and is given by:
 
-\[
+$$
 v_p = \frac{c}{\sqrt{1 - (f_c/f)^2}}
-\]
+$$
 
 On the other hand, the **group velocity** \( v_g \) represents the speed at which the energy or information travels and is given by:
 
-\[
+$$
 v_g = c \sqrt{1 - (f_c/f)^2}
-\]
+$$
 
 Interestingly, in a waveguide, the **phase velocity is greater than the speed of light**, but this does not violate relativity since it does not carry energy or information.
 
@@ -130,4 +128,4 @@ Rectangular waveguides are indispensable in **high-frequency communication and r
 
 ---
 
-
+This Markdown format will work correctly on **GitHub** and other platforms that support LaTeX-style math rendering in Markdown. Let me know if you need further refinements! 🚀
