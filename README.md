@@ -37,6 +37,11 @@ If the operating frequency is **below the cutoff frequency**, wave propagation i
 ## **Why Can't a Rectangular Waveguide Support TEM Waves?**
 A **TEM wave** requires both the electric and magnetic fields to be purely transverse (perpendicular) to the direction of propagation, meaning there must be **two independent conductors** to support this mode. In a hollow rectangular waveguide, there is only one conductor, making it impossible to support a pure TEM wave. Instead, only **TE and TM modes exist**, where at least one field component is aligned along the direction of propagation.
 
+
+
+https://github.com/user-attachments/assets/75184686-5ea1-4c85-9dcf-be269fa1a1e9
+
+
 ---
 
 ## **Propagation Constant and Guide Wavelength**
