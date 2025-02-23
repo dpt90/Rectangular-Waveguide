@@ -1,4 +1,4 @@
-If you want your equations to be formatted correctly for **GitHub Markdown**, use **double dollar signs (`$$`)** for block equations and **single dollar signs (`$`)** for inline equations. Here’s how you should structure your blog post in **GitHub-friendly Markdown format**:
+
 
 ---
 
@@ -133,4 +133,3 @@ Rectangular waveguides are indispensable in **high-frequency communication and r
 
 ---
 
-This Markdown format will work correctly on **GitHub** and other platforms that support LaTeX-style math rendering in Markdown. Let me know if you need further refinements! 🚀
